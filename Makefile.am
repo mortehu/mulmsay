@@ -1,6 +1,6 @@
-bin_PROGRAMS = font-render-comparison
+bin_PROGRAMS = mulmsay
 
 AM_CFLAGS = $(PACKAGES_CFLAGS) -Wall
 
-font_render_comparison_SOURCES = main.c freetype.c pango.c font.h
-font_render_comparison_LDFLAGS = $(PACKAGES_LIBS) -lm
+mulmsay_SOURCES = main.c pango.c font.h
+mulmsay_LDFLAGS = $(PACKAGES_LIBS) -lm

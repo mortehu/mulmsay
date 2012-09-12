@@ -7,7 +7,7 @@ AC_PROG_CC
 AC_PROG_INSTALL
 AC_PROG_MAKE_SET
 
-PKG_CHECK_MODULES([PACKAGES], [fontconfig >= 2.8.0 freetype2 >= 12.2 pangocairo >= 1.29 cairo >= 1.10 libotf >= 0.9])
+PKG_CHECK_MODULES([PACKAGES], [fontconfig >= 2.8.0 pangocairo >= 1.29 cairo >= 1.10])
 
 AC_SUBST(PACKAGES_CFLAGS)
 AC_SUBST(PACKAGES_LIBS)

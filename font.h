@@ -11,12 +11,4 @@ pango_render_string (cairo_t *cairo,
                      unsigned int size,
                      const char *string);
 
-void
-freetype_render_string (cairo_t *cairo,
-                        int x, int y,
-                        const char *font,
-                        unsigned int size,
-                        const char *string,
-                        float gamma);
-
 #endif /* !FONT_H_ */
