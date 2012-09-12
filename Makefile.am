@@ -1,4 +1,5 @@
 bin_PROGRAMS = mulmsay
+dist_pkgdata_DATA = mulm.png mulm-hair.png
 
 AM_CFLAGS = $(PACKAGES_CFLAGS) -Wall
 
